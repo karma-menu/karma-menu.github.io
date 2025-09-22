@@ -110,11 +110,10 @@
       prompt('Copy this bookmarklet code:',bm.href);
     });
 
-    // Loading screen for exactly 5s
     (function(){
       const overlay=document.getElementById('loading');
       const progress=document.getElementById('progress');
-      const duration=5000; // 5 seconds
+      const duration=1200;
       const start=Date.now();
 
       function step(){
